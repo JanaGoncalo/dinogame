@@ -1,4 +1,4 @@
-# Dino Game  
+## Dino Game  
 
 ## Sobre
 Recriando o famoso jogo do dinossauro sem internet.
