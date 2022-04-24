@@ -1,0 +1,51 @@
+body {
+    background: hsl(0, 18%, 97%);
+    background-color: black;
+  }
+  
+.dino {
+ 
+  width: 60px;
+  height: 60px;
+  background-image: url(imgs/dino.png);
+  position: absolute;
+  bottom: 0;
+  
+}
+
+.asteroides {
+
+  width: 60px;
+  height: 60px;
+  background-image: url(imgs/asteróides.png); 
+  position: absolute; 
+  bottom: 0;
+
+}
+
+.game-over {
+  text-align: center;
+  color: rgb(75, 73, 73);
+  margin-top: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@keyframes slideright {
+  from {
+      background-position: 70000%;
+  }
+  to {
+      background-position: 0%;
+  }
+}
+
+.background {
+  position: absolute;
+  bottom: 0px;
+  background-image: url('imgs/background.png');
+  background-repeat: repeat-x;
+  animation: slideright 800s infinite linear;
+  -webkit-animation: slideright 800s infinite linear;
+  width: 100%;
+  height: 200px;
+}
